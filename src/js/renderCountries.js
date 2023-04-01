@@ -19,7 +19,7 @@ export default function renderCountries(dataCountries) {
             `
             listCountries.innerHTML = countries;   
         })
-        countryInfo.innerHTML = ""
+        countryInfo.innerHTML = "";
     } else {
         let country = dataCountries[0]
         let languages = []
@@ -29,22 +29,18 @@ export default function renderCountries(dataCountries) {
         })
 
         countryInfo.innerHTML = `
-        <div class="country-header">
+        <div class="flags-country">
             <img src="${country.flags.svg}" class="flag"/>
-            <h2 class="title">${country.name}</h2>
+            <h2 class="country-name">${country.name}</h2>
         </div>
         <ul class="list-countries">
-            <li>
-                <span>Capital: </span>${country.capital}
-            </li>
-            <li>
-                <span>Population: </span>${country.population}
-            </li>
-            <li>
-                <span>Languages: </span>${languages.join(", ")}
-            </li>
+            <li><span>Capital: </span>${country.capital}</li>
+
+            <li><span>Population: </span>${country.population}</li>
+
+            <li><span>Languages: </span>${languages.join(", ")}</li>
         </ul>
         `
-        listCountries.innerHTML = ""
+        listCountries.innerHTML = "";
     }
-}
+};

@@ -23,8 +23,8 @@ function searchCountries(e) {
                 Notify.failure("Oops, there is no country with that name")
             })
     } else {
-        listofCountries.innerHTML = ""
-        countryInfo.innerHTML = ""
+        listCountries.innerHTML = "";
+        countryInfo.innerHTML = "";
     }
     
 };
