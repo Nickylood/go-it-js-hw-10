@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://nickylood.github.io/go-it-js-hw-10/",
+  "homepage": "https://Nickylood.github.io/go-it-js-hw-10/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /go-it-js-hw-10/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.io/nickylood/go-it-js-hw-10/settings/pages"
+    "url": "git+https://github.com/Nickylood/go-it-js-hw-10/settings/pages"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
