@@ -30,6 +30,10 @@ body {
 .country-list li {
   margin-bottom: 5px;
 }
+.title {
+  font-size: 25px;
+  font-weight: 700;
+}
 
 .list-countries {
   list-style-type: none;
